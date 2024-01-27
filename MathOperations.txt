@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class MathOperation
+{
+    public static void main(String[] args)
+    {
+        int a,b;
+        int sum;
+        int sub;
+        int mult;
+        double div;
+
+        Scanner sc = new Scanner(System.in);      //Use to get value form User
+        System.out.print("Enter Value for A = "); //Use to get value form User
+        a=sc.nextInt();
+        System.out.print("Enter Value for B = ");
+        b=sc.nextInt();
+
+
+        sum = a+b;
+        sub = b-a;
+        mult = a*b;
+        div = b/a;
+
+        System.out.println("Addition of a+b = "+sum);
+        System.out.println("Substraction of b-a = "+sub);
+        System.out.println("Multiplication of a*b = "+mult);
+        System.out.println("Division of b/a = "+div);
+
+
+    }
+}
